@@ -1,0 +1,22 @@
+{
+	"name": "camacross",
+	"version": "0.1.1",
+	"description": "Camera POC, cross-platform, etc.",
+	"private": false,
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/Modified/Camacross.git"
+	},
+	"scripts": {
+		"start":"coffee server.coffee"
+	},
+	"config":{
+	},
+	"author": "Ilan Arad <ilan@decodecode.net>",
+	"dependencies": {
+		"zappajs": "~0.4.22",
+		"zappajs-partials":"0.0.7",
+		"stylus":"~0.42.2",
+		"coffee-script":"~1.7.1"
+	}
+}
